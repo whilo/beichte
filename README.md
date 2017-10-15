@@ -3,7 +3,7 @@
 *Formalize and enforce purity staticly without a type system.*
 
 Confess (German: beichten) your sins and expose your side-effects. Beichte will
-track down you Clojure source code recursively and examine all accesses to vars
+track down your Clojure source code recursively and examine all accesses to vars
 statically with [tools.analyzer](https://github.com/clojure/tools.analyzer).
 Access to variables that it does not know by a whitelist will taint all access
 to vars depending on the access and so on.
